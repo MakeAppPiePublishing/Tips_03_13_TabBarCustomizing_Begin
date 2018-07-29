@@ -12,6 +12,9 @@
 		E1D62296210E0C4E000AE276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D62294210E0C4E000AE276 /* Main.storyboard */; };
 		E1D62298210E0C50000AE276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1D62297210E0C50000AE276 /* Assets.xcassets */; };
 		E1D6229B210E0C50000AE276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D62299210E0C50000AE276 /* LaunchScreen.storyboard */; };
+		E1D622A3210E2C43000AE276 /* SquareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D622A2210E2C43000AE276 /* SquareViewController.swift */; };
+		E1D622A5210E2C59000AE276 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D622A4210E2C59000AE276 /* CircleViewController.swift */; };
+		E1D622A7210E2C79000AE276 /* BackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D622A6210E2C79000AE276 /* BackgroundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		E1D62297210E0C50000AE276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1D6229A210E0C50000AE276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1D6229C210E0C50000AE276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D622A2210E2C43000AE276 /* SquareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareViewController.swift; sourceTree = "<group>"; };
+		E1D622A4210E2C59000AE276 /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
+		E1D622A6210E2C79000AE276 /* BackgroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				E1D62290210E0C4E000AE276 /* AppDelegate.swift */,
 				E1D62292210E0C4E000AE276 /* ViewController.swift */,
 				E1D62294210E0C4E000AE276 /* Main.storyboard */,
+				E1D622A2210E2C43000AE276 /* SquareViewController.swift */,
+				E1D622A4210E2C59000AE276 /* CircleViewController.swift */,
+				E1D622A6210E2C79000AE276 /* BackgroundViewController.swift */,
 				E1D62297210E0C50000AE276 /* Assets.xcassets */,
 				E1D62299210E0C50000AE276 /* LaunchScreen.storyboard */,
 				E1D6229C210E0C50000AE276 /* Info.plist */,
@@ -137,6 +146,9 @@
 			files = (
 				E1D62293210E0C4E000AE276 /* ViewController.swift in Sources */,
 				E1D62291210E0C4E000AE276 /* AppDelegate.swift in Sources */,
+				E1D622A7210E2C79000AE276 /* BackgroundViewController.swift in Sources */,
+				E1D622A5210E2C59000AE276 /* CircleViewController.swift in Sources */,
+				E1D622A3210E2C43000AE276 /* SquareViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
