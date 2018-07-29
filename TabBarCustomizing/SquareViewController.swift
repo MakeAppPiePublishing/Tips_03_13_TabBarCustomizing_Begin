@@ -10,6 +10,7 @@ import UIKit
 
 class SquareViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

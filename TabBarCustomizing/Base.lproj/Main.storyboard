@@ -59,6 +59,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" image="Gradient" landscapeImage="Gradient Compact" id="AIH-Vp-ueQ"/>
+                    <connections>
+                        <outlet property="imageView" destination="lEa-zX-DhL" id="22Q-i6-pra"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -113,6 +116,9 @@
                         <viewLayoutGuide key="safeArea" id="zfw-ck-Wsd"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Circle" image="Circle Template" landscapeImage="Circle Compact Template" selectedImage="Circle" id="2h5-gg-sPm"/>
+                    <connections>
+                        <outlet property="imageView" destination="KWZ-1P-eH7" id="LHo-Kj-zUg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mzv-eb-O9K" sceneMemberID="firstResponder"/>
             </objects>
@@ -167,6 +173,9 @@
                         <viewLayoutGuide key="safeArea" id="bWa-Ws-MmU"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Square" image="Square Template" landscapeImage="Square Comapct Template" selectedImage="Square" id="bMQ-Za-4ei"/>
+                    <connections>
+                        <outlet property="imageView" destination="GFj-Vp-3iR" id="MtZ-nk-o0y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vwA-Ff-ea1" sceneMemberID="firstResponder"/>
             </objects>
