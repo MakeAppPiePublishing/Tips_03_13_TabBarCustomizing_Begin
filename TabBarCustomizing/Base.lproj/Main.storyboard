@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Background-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="BackgroundViewController" customModule="TabBarCustomizing" customModuleProvider="target" sceneMemberID="viewController">
@@ -58,14 +58,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="Gradient" landscapeImage="Gradient Compact" id="AIH-Vp-ueQ"/>
+                    <tabBarItem key="tabBarItem" title="Background" image="Gradient" landscapeImage="Gradient Compact" id="AIH-Vp-ueQ"/>
                     <connections>
                         <outlet property="imageView" destination="lEa-zX-DhL" id="22Q-i6-pra"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2575" y="-1224"/>
+            <point key="canvasLocation" x="2644" y="-1224"/>
         </scene>
         <!--Circle-->
         <scene sceneID="YKf-Q7-Nfx">
